@@ -1,32 +1,35 @@
 [Display]
 FullscreenRefresh=0
 Maximized=0
-FullscreenWidth=1024
-FullscreenHeight=768
+FullscreenWidth=1600
+FullscreenHeight=900
 WindowedWidth=1366
 WindowedHeight=768
-Mode=Fullscreen
+Mode=WindowedFullscreen
 FullscreenMode=Fullscreen
 HDPixelPlus=1.000000
 
 [Rendering]
-EffectsQuality=2
+EffectsQuality=-1
 OverallQuality=-1
-TextureQuality=3
-ShadowQuality=0
+TextureQuality=-1
+ShadowQuality=-1
 FloraQuality=1
-RenderDistance=1500.000000
+RenderDistance=1415.000000
+UseDepthOfField=0.000000
 Gamma=0.000000
 MaximumFPS=250
 UseLod0a=0
 Smoothing=0
-ModelQuality=3
+SpeedTreeLOD=0
+ModelQuality=1
 FogShadowsEnable=0
-AO=1
-VerticalFOV=70
-LightingQuality=1
-ParticleLOD=2
-UseDepthOfField=0.000000
+AO=0
+InteriorLighting=0
+VerticalFOV=74
+LightingQuality=0
+ParticleLOD=0
+VSync=0
 
 [Controls]
 CameraAutoAdjustment=1
@@ -35,14 +38,13 @@ ClickToMoveRightButton=0
 RailCamera=1
 
 [Sound]
-Master=0.585000
+Master=0.430000
 SoundEffects=1.000000
 UI=1.000000
 Dialog=1.000000
-MusicMaster=0.142750
+MusicMaster=0.140000
 MusicAmbient=1.000000
 MusicEncounter=1.000000
-MuteAll=0
 
 [VideoStreamer]
 Resolution=1
@@ -52,9 +54,6 @@ MicRecordVolume=0.000000
 SpeakerRecordVolume=1.000000
 Username=
 
-[Terrain]
-RenderFlora=Off
-
 [AutoRefuse]
 FriendInvitation=0
 DuelInvitation=0
@@ -63,6 +62,15 @@ HideUi=1
 TradeRequest=0
 HousingInvitation=0
 GroupInvitation=0
+
+[General]
+GamepadInvertLook=0
+AutoDetectPerformanceSettings=0
+MouseSensitivity=0.070000
+ScopedMouseSensitivity=0.070000
+VehicleMouseSensitivity=0.640000
+ADSMouseSensitivity=0.070000
+FirstPerson=0
 
 [VoiceChat]
 EchoEnabled=1
@@ -85,40 +93,13 @@ InputDevice=Default System Device
 OutputDevice=Default System Device
 
 [Voice]
-ReceiveVolume=74.000000
+ReceiveVolume=65.000000
 MicrophoneVolume=50.000000
-Ducking=0.500000
 Enable=1
 DisableProximityChatInTheBoxOfDestiny=1
-DisableProximityChat=0
 
 [UI]
-SelectedChatChannel=GeneralPC
-reticle_frame=22
+FirstTimeEventEnabled=0
+reticle_frame=21
 reticle_tint=16711680
-hasPoppedTooltipModerate Bleeding=1
-hasPoppedTooltipSevere Bleeding=1
-hasPoppedTooltipBandage: Healing=1
-hasPoppedTooltipMinor Bleeding=1
-HudVitalsMode=1
-InventoryListType=1
-SteamFriendServerShare=0
-usCheckboxState=true
-euCheckboxState=false
-auCheckboxState=false
-hasPoppedTooltipBanshee's Call=1
-autofillCheckboxState=true
-
-[General]
-MouseRawInput=1
-MouseSmoothing=0
-ReduceInputLag=0
-MouseSensitivity=0.095000
-ADSMouseSensitivity=0.095000
-ScopedMouseSensitivity=0.095000
-HideNames=0
-HideLocations=0
-HideBannerBroadcasts=0
-InvertVerticalLook=0
-FirstPerson=0
-
+aboutInvShow=1
